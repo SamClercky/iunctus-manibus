@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 1em;
+    padding: 0;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    background-image: -webkit-gradient(linear, top, bottom, from(rgba(0,0,0,0.5)), to(rgba(0,0,0,0)));
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0));
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0));
+    padding: 1%;
+}
+nav a {
+    display: block;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    margin: 5px;
+    margin-top: 15px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 500;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 3px;
+    text-align: center;
+}
+nav a:active {
+    border-color: white;
+}
+nav a:hover {
+    border-color: white;
+}
+nav a:first-child {
+    margin-top: 5px;
+}
+nav a:first-child:hover {
+    border-color: rgba(255, 255, 255, 0);
+}
+nav img {
+    float: left;
+    height: 3rem;
+}
+h1 {
+    text-align: center;
+    color: white;
+    background: url("../img/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    padding: 10% 15%;
+    text-transform: uppercase;
+    text-shadow: 5px 5px #555;
+}
+article {
+    padding: 20px 20%;
+    font-size: 1rem;
+    text-align: left;
+}
+article p {
+    margin-top: 15px;
+}
+article p.quote {
+    text-align: center;
+    font-weight: bold;
+}
+
+.clearfix {
+    clear: both;
+}
