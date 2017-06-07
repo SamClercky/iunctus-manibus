@@ -1,0 +1,21 @@
+{
+  "name": "iunctis-manibus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "http-server . -p 80",
+    "start": "http-server . -p 80",
+    "compile": "jade uncompiled --out ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamClercky/iunctus-manibus.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamClercky/iunctus-manibus/issues"
+  },
+  "homepage": "https://github.com/SamClercky/iunctus-manibus#readme"
+}
